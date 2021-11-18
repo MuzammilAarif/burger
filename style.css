@@ -1,0 +1,440 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* border: 2px solid red; */
+    /* background-color: aqua; */
+}
+
+/* Header Css */
+
+header {
+    width: 100%;
+    height: 100vh;
+    background-image: url(img/bg14.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /* border: 2px solid blue; */
+}
+
+.mainheader {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mainheader .nav-1 {
+    margin-left: 50px;
+    width: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.mainheader .nav-2 i {
+    color: white;
+    /* margin-left: 50px; */
+}
+
+.mainheader .nav-2 {
+    margin-right: 50px;
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.mainheader nav a {
+    text-decoration: none;
+    color: white;
+    /* text-transform: uppercase; */
+}
+
+.mainheader-2 nav a {
+    text-decoration: none;
+    color: white;
+}
+
+.mainheader-2 {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mainheader-2 .nav-4 {
+    margin-right: 50px;
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.mainheader-2 {
+    position: relative;
+}
+
+.mainheader-2 .nav-3 img {
+    position: absolute;
+    margin-left: 50px;
+    margin-top: -20px;
+    width: 30px;
+    height: 30px;
+}
+
+.mainheader-2 .nav-3 p {
+    position: absolute;
+    width: 350px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: -10px;
+    color: green;
+}
+
+.mainheader-3 {
+    margin-top: 110px;
+    padding-left: 470px;
+}
+
+.mainheader-3 .h2 {
+    color: white;
+    font-size: 60px;
+    /* text-transform: capitalize; */
+    font-weight: lighter;
+    margin-left: 55px;
+    margin-top: 210px;
+    /* font-family: 'Estonia', cursive; */
+    font-family: 'Comforter Brush', cursive;
+    font-family: 'Estonia', cursive;
+}
+
+.mainheader-3 h1 {
+    color: white;
+    margin: 25px 0;
+    font-weight: bolder;
+}
+
+.mainheader-3 button {
+    padding: 8px 25px;
+    text-align: center;
+    font-size: 14px;
+    color: green;
+    border: none;
+    /* background-image: -moz-linear-gradient();*/
+    border-radius: 10px;
+    margin-left: 120px;
+    margin-top: 60px;
+}
+
+/* Body Css */
+
+.mainbody {
+    width: 100%;
+    height: 80vh;
+    /* border: 1px solid red; */
+    position: relative;
+    /* padding: 100px; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.item-1 {
+    /* padding: 100px; */
+    width: 1171px;
+    height: 335px;
+    border: 1px solid green;
+}
+
+.item-1 img {
+    width: 350px;
+    height: 335px;
+    /* padding: 80px 40px; */
+    position: absolute;
+    /* border: 2px solid brown; */
+}
+
+.item-1 h2 {
+    width: 290px;
+    height: 27px;
+    position: absolute;
+    color: green;
+    /* border: 1px solid yellow; */
+    /* align-items: center; */
+    margin-left: 400px;
+    margin-top: 30px;
+}
+
+.item-1 .date {
+    position: absolute;
+    margin-left: 400px;
+    margin-top: 75px;
+    /* background-color: blueviolet; */
+}
+
+.item-1 .admin {
+    position: absolute;
+    margin-left: 520px;
+    margin-top: 75px;
+    /* background-color: blueviolet; */
+}
+
+.item-1 .comment {
+    position: absolute;
+    margin-left: 620px;
+    margin-top: 75px;
+    /* background-color: blueviolet; */
+}
+
+.item-1 p {
+    width: 737px;
+    height: 107px;
+    position: absolute;
+    margin-left: 400px;
+    margin-top: 115px;
+    /* border: 1px solid darkgreen; */
+}
+
+.item-1 button {
+    position: absolute;
+    color: green;
+    padding: 10px;
+    margin-left: 400px;
+    margin-top: 250px;
+    border: 2px solid lightgreen;
+}
+
+.mainbody2 {
+    width: 100%;
+    height: 40vh;
+    /* border: 1px solid red; */
+    position: relative;
+    /* padding: 100px; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.item-2 {
+    /* padding: 100px; */
+    width: 1171px;
+    height: 335px;
+    border: 1px solid green;
+}
+
+.item-2 img {
+    width: 350px;
+    height: 335px;
+    /* padding: 80px 40px; */
+    position: absolute;
+    /* border: 2px solid brown; */
+}
+
+.item-2 h2 {
+    width: 290px;
+    height: 27px;
+    position: absolute;
+    color: black;
+    /* border: 1px solid yellow; */
+    /* align-items: center; */
+    margin-left: 400px;
+    margin-top: 30px;
+}
+
+.item-2 .date-2 {
+    position: absolute;
+    margin-left: 400px;
+    margin-top: 75px;
+    /* background-color: blueviolet; */
+}
+
+.item-2 .admin-2 {
+    position: absolute;
+    margin-left: 520px;
+    margin-top: 75px;
+    /* background-color: blueviolet; */
+}
+
+.item-2 .comment-2 {
+    position: absolute;
+    margin-left: 620px;
+    margin-top: 75px;
+    /* background-color: blueviolet; */
+}
+
+.item-2 p {
+    width: 737px;
+    height: 107px;
+    position: absolute;
+    margin-left: 400px;
+    margin-top: 115px;
+    /* border: 1px solid darkgreen; */
+}
+
+.item-2 button {
+    position: absolute;
+    color: white;
+    padding: 10px;
+    margin-left: 400px;
+    margin-top: 250px;
+    border: 2px solid green;
+    background-color: green;
+}
+
+/* Footer Css */
+
+.hour {
+    width: 100%;
+    height: 15vh;
+    margin-top: 70px;
+    position: relative;
+    /* border: 1px solid black; */
+    background-color: green;
+    /* align-items: center; */
+    /* display: flex; */
+    /* justify-content: space-around;
+    align-items: center; */
+}
+
+.open {
+    height: 5vh;
+    /* border: 1px solid red; */
+    padding: 20px;
+}
+
+.hour .open h3 {
+    position: absolute;
+    left: 5%;
+    margin-top: 19px;
+    color: white;
+    /* padding: 10px; */
+}
+
+.hour table {
+    color: white;
+    position: absolute;
+    right: 180px;
+    /* left: 30%; */
+    /* margin-top: 5px; */
+    /* margin-right: 50px; */
+    /* width: 100px; */
+    /* display: flex;
+    justify-content: space-around;
+    align-items: center; */
+    border-collapse: collapse;
+}
+
+.hour table tr {
+    border: none;
+    padding: 10px;
+}
+
+.hour table td {
+    padding: 10px;
+    border-right: solid 2px white;
+    border-left: solid 2px white;
+}
+
+.hour table th {
+    border-right: solid 2px white;
+    border-left: solid 2px white;
+}
+
+/* Bottom Css */
+
+.bottom {
+    width: 100%;
+    height: 45vh;
+    /* margin-top: 70px; */
+    position: relative;
+    /* border: 2px solid red; */
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+}
+
+.bottom a {
+    text-decoration: none;
+    color: white;
+}
+
+.bottom h2 {
+    color: green;
+}
+
+.bottom p {
+    color: white;
+}
+
+.bottom i {
+    color: green;
+}
+
+.bottom .restaurant {
+    position: absolute;
+    left: 70px;
+    /* border: 1px solid red; */
+}
+
+.bottom .follow {
+    position: absolute;
+    /* left: 490px; */
+    /* border: 1px solid red; */
+}
+
+.bottom .news {
+    width: 300px;
+    height: 190px;
+    margin-top: 40px;
+    position: absolute;
+    right: 70px;
+    /* border: 1px solid red; */
+}
+
+.bottom .restaurant h2 {
+    margin-bottom: 20px;
+}
+
+.bottom .follow h2 {
+    margin-bottom: 20px;
+}
+
+.bottom .news h2 {
+    margin-bottom: 20px;
+}
+
+.bottom a {
+    margin-top: 12px;
+}
+
+.news input {
+    padding: 8px;
+    width: 208px;
+    border: 2px solid black;
+    margin-top: 10px;
+}
+
+.news button {
+    width: 228px;
+    padding: 8px;
+    margin-top: 10px;
+    background-color: green;
+    color: white;
+}
+
+/* Copyright */
+
+.copyright {
+    width: 100%;
+    height: 7vh;
+}
+
+.copyright h5 {
+    text-align: center;
+    padding: 15px;
+}
